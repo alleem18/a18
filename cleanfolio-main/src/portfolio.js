@@ -10,7 +10,7 @@ const about = {
   role: 'Web Dev | Backend | DevOps | Cloud | Data Analytics',
   description:
     "",
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/14qY0NV6fpP3MrCqvDT3gSyY9YAg42HxA/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/alleem18/',
     github: 'https://github.com/alleem18',
