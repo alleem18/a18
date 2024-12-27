@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://github.com/alleem18'
       className='link footer__link'
     >
-        a18
+        A18
     </a>
   </footer>
 )
