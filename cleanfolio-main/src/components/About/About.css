@@ -1,0 +1,45 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+  align-items: center; /* Center align the items */
+  text-align: center; /* Ensure text is centered */
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+  margin-bottom: 2em; /* Increased space between role and description */
+  font-size: 1.5rem; /* Slightly larger font size for visibility */
+}
+
+.about__desc {
+  font-size: 1.2rem; /* Increase font size for better readability */
+  max-width: 80%; /* Adjust width to fit more content */
+  text-align: justify; /* Justify the text for better formatting */
+  white-space: pre-line; /* Respect formatting and line breaks in the text */
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.about__contact {
+  margin-top: 2.4em;
+  display: flex;
+  justify-content: center; /* Center the contact links and resume button */
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+  .about {
+    align-items: center; /* Keep alignment consistent on small screens */
+    margin-top: 2em;
+  }
+}

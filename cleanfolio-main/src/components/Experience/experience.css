@@ -1,0 +1,87 @@
+/* General Styles for All Sections */
+.section {
+    margin-top: 5em;
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5em;
+  }
+  
+  .section__title {
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    color: var(--clr-primary);
+  }
+  
+  /* Grid Layout for Cards */
+  .experience-grid, .certification-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* One column layout */
+    gap: 1em;
+    justify-content: center;
+  }
+
+  .experience-details {
+    margin: 1em 0; /* Space above and below the details section */
+    color: var(--clr-fg);
+    text-align: left; /* Align details to the left */
+  }
+  
+  .experience-details ul {
+    padding-left: 1.5em; /* Add padding for indentation */
+    margin: 1em 0; /* Add margin around the list */
+  }
+  
+  .experience-details li {
+    margin-bottom: 0.8em; /* Add spacing between individual details */
+    line-height: 1.6; /* Improve readability */
+    color: var(--clr-fg); /* Ensure consistent text color */
+    text-align: left; 
+  }
+.experience-card p {
+    margin: 0.5em 0; /* Uniform gap between all text blocks */
+  }
+  
+  /* Card Styling */
+  .experience-card, .certification-card {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--clr-bg-alt); /* Retain or adjust based on design */
+    color: var(--clr-fg);
+    border-radius: 10px;
+    box-shadow: var(--shadow); /* Matches the shadow of project boxes */
+    transition: transform 0.2s linear; /* Matches project hover effect */
+    margin-bottom: 1em; /* Keeps spacing consistent */
+  }
+  
+  .experience-card:hover, .certification-card:hover {
+    transform: translateY(-7px); /* Matches the hover effect of project boxes */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Slightly deeper hover shadow */
+  }
+  
+  .experience-card, .certification-card {
+    background-color: var(--clr-bg); /* Use a darker variable or custom value */
+    color: var(--clr-fg-alt); /* Ensure text is readable on a darker background */
+  }
+  
+  /* Card Content Styling */
+  .experience-info, .certification-info {
+    padding: 1em;
+    font-size: 0.9em;
+    color: var(--clr-fg);
+  }
+  
+  h3 {
+    color: var(--clr-primary);
+  }
+  
+  @media (max-width: 600px) {
+    .experience-card, .certification-card {
+      padding: 1em;
+      grid-template-columns: 1fr; 
+    }
+  }
+  
