@@ -7,10 +7,10 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Aleemuddin Mohammad',
-  role: 'Web Dev | Backend | DevOps | Cloud | Data Analytics',
+  role: ' Backend Development  |  DevOps  & Cloud ',
   description:
     "",
-  resume: 'https://drive.google.com/file/d/14qY0NV6fpP3MrCqvDT3gSyY9YAg42HxA/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1TwuHTZQQ5pyZ3W9-huQaQwslSYSRKG7_/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/alleem18/',
     github: 'https://github.com/alleem18',
@@ -70,7 +70,7 @@ const skills = [
   },
   // Additional categories...
   {
-    category: "Web Dev",
+    category: "Web Development",
     skills: [
       { name: 'HTML', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' },
       { name: 'CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg' },
@@ -95,17 +95,7 @@ const skills = [
       { name: 'Terraform', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg'},
     ]
   },
-  {
-    category: "Data Analytics",
-    skills: [
-      { name: 'Pandas', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg' },
-      { name: 'Numpy', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-line.svg' },
-      { name: 'SQLite', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg' },
-      { name: 'mysql', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg' },
-      { name: 'Tabaleu', logo: "" },
-      { name: 'PowerBI', logo: 'https://img.icons8.com/color/96/power-bi.png' }
-    ]
-  },
+
   {
     category: "Tools & Frameworks",
     skills: [
@@ -113,15 +103,14 @@ const skills = [
       { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg' },
       { name: 'Firebase', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg'},
       { name: 'Graphana', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg' },
-      { name: 'IntellIJ', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg' },
-      { name: 'OpenCV', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg' },
+      
       { name: 'Postman', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg' },
       { name: 'Pycharm', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg'},
       { name: 'Redis', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg'},
       { name: 'RedHat', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redhat/redhat-original.svg'},
       { name: 'Ubuntu', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg'},
       { name: 'Vim', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vim/vim-original.svg'},
-      { name: 'Visual Studio Code', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg'},
+      
       { name: 'ChatGPT', logo: 'https://img.icons8.com/fluency/96/chatgpt--v2.png'}
     ]
   }
@@ -150,18 +139,7 @@ const education = [
 ];
 
 const experience = [
-  {
-    id: 'exp-001',
-    school: '@ All India Council for Technical Education',
-    degree: 'AWS Cloud Intern',
-    year: 'May 2021 – July 2021',
-    details: [
-      { id: 'd1', text: '-> Designed & deployed scalable AWS cloud architectures and data analytics pipelines, improving system uptime by 15%.'},
-      { id: 'd2', text: '+ Implemented real-time analytics dashboards using AWS Kinesis and QuickSight, leading to immediate insights that enhanced decision-making.' },
-      { id: 'd3', text: '+ Utilized AWS SageMaker and Lambda to automate processes and apply machine learning models, achieving up to 85% prediction accuracy and reducing data processing time by 50%.' }
-    ]
-    
-  },
+  
   {
     id: 'exp-002',
     school: '@ Arrive Delivery ',
@@ -174,6 +152,18 @@ const experience = [
     ]
     
   },
+  {
+    id: 'exp-001',
+    school: '@ All India Council for Technical Education',
+    degree: 'AWS Cloud Intern',
+    year: 'Jan 2021 – July 2021',
+    details: [
+      { id: 'd1', text: '-> Designed & deployed scalable AWS cloud architectures and data analytics pipelines, improving system uptime by 15%.'},
+      { id: 'd2', text: '+ Implemented real-time analytics dashboards using AWS Kinesis and QuickSight, leading to immediate insights that enhanced decision-making.' },
+      { id: 'd3', text: '+ Utilized AWS SageMaker and Lambda to automate processes and apply machine learning models, achieving up to 85% prediction accuracy and reducing data processing time by 50%.' }
+    ]
+    
+  },
 
   {
     id: 'exp-003',
@@ -182,7 +172,7 @@ const experience = [
     year: 'Seeking Opportunities - 2024 and Beyond',
     details: [
       
-      { id: 'd1', text: '-> Passionate about designing scalable backend systems using Python, Django, and RESTful APIs to deliver efficient and impactful solutions.' },
+      { id: 'd1', text: '-> Passionate about designing scalable backend systems  to deliver efficient and impactful solutions.' },
       { id: 'd2', text: '+ Skilled in building robust architectures with MongoDB/PostgreSQL and ensuring secure, high-performing data management.' },
       { id: 'd3', text: '+ Eager to leverage cloud platforms (AWS/GCP) and containerized solutions (Docker/Kubernetes) to streamline CI/CD workflows.' },
       { id: 'd4', text: '+ Excited to develop full-stack applications with ReactJS and backend frameworks, delivering intuitive user experiences and scalable systems.' },
